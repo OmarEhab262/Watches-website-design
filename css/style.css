@@ -572,3 +572,28 @@ input[type="submit"]:hover {
 .footer .but .social-icon a:hover {
   color: var(--gray-color);
 }
+@media (max-width: 768px) {
+  .leding .container .main-leding span {
+    font-size: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .leding .container .main-leding img {
+    width: 100px;
+    margin-bottom: 70px;
+  }
+}
+@media (max-width: 768px) {
+  .watches .container .secttion .cont .left img {
+    width: 200px;
+  }
+  .watches .container .secttion .show img {
+    width: 70px;
+  }
+}
+@media (max-width: 768px) {
+  input[type="text"] {
+    width: 200px;
+  }
+}
